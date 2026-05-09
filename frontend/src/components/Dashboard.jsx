@@ -6,7 +6,7 @@ import {
   BarChart, Bar, Cell
 } from "recharts"
 
-const API_URL = "http://localhost:5000"
+const API_URL = "https://fouad1239-air-quality-morocco.hf.space"
 
 const CITY_COLORS = {
   Fes: "#3b82f6",
