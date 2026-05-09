@@ -4,7 +4,7 @@ import PredictionForm from "./components/PredictionForm"
 import ResultCard from "./components/ResultCard"
 import Dashboard from "./components/Dashboard"
 
-const API_URL = "http://localhost:5000"
+const API_URL = "https://fouad1239-air-quality-morocco.hf.space"
 
 export default function App() {
   const [page, setPage] = useState("predict")
