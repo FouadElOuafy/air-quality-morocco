@@ -4,7 +4,7 @@ import PredictionForm from "./components/PredictionForm"
 import ResultCard from "./components/ResultCard"
 import Dashboard from "./components/Dashboard"
 
-const API_URL = "https://ton-app.vercel.app" // ← remplace par ton URL Vercel
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000"
 
 export default function App() {
   const [page, setPage] = useState("predict")

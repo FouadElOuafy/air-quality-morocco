@@ -5,7 +5,7 @@ import {
   Tooltip, Legend, ResponsiveContainer, Cell
 } from "recharts"
 
-const API_URL = "https://ton-app.vercel.app" // ← remplace par ton URL Vercel
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000"
 
 const CITY_COLORS = {
   Fes: "#3b82f6",
