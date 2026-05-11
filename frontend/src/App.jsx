@@ -134,6 +134,7 @@ export default function App() {
       }}>
         Air Quality Morocco 🇲🇦 | Flask + scikit-learn + React
       </div>
+      
     </div>
   )
 }
